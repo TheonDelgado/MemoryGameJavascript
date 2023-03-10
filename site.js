@@ -24,9 +24,7 @@ function checkIfCardsMatch(cardOne, cardTwo) {
     let cardTwoImg = cardTwo.querySelector(".flip-card-back .backImg")
 
     if(cardOneImg.alt === cardTwoImg.alt) {
-       let winningTextHeader = document.createElement("h2");
-       winningTextHeader.innerText = "YOU WIN!";
-       document.body.appendChild(winningTextHeader);
+       
     }
     else {
         cardOne.classList.remove("clicked");
